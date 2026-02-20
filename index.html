@@ -23,26 +23,51 @@
 
     <!-- Header -->
     <header class="header">
-        <nav class="navbar">
-            <div class="container">
-                <div class="logo">
-                    <img src="images/FURATUDO-removebg-preview.png" alt="Fura Tudo Logo">
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#gallery">Galeria</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="images/furaTudo-removebg-preview (1).png" alt="Fura Tudo Logo">
             </div>
-        </nav>
-    </header>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Overlay -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<!-- Sidebar -->
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <div class="sidebar-logo">
+            <img src="images/furaTudo-removebg-preview (1).png" alt="Fura Tudo Logo">
+        </div>
+        <button class="sidebar-close" id="sidebarClose">&times;</button>
+    </div>
+
+    <nav class="sidebar-nav">
+        <a href="#home"><i class="fas fa-home"></i> Início</a>
+        <a href="#services"><i class="fas fa-tools"></i> Serviços</a>
+        <a href="#about"><i class="fas fa-info-circle"></i> Sobre</a>
+        <a href="#gallery"><i class="fas fa-images"></i> Galeria</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contato</a>
+    </nav>
+
+    <div class="sidebar-footer">
+        <p>© 2024 Fura Tudo. Todos os direitos reservados.</p>
+    </div>
+</aside>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
@@ -53,7 +78,7 @@
             <div class="hero-features">
             </div>
             <div class="hero-promo">
-                <p>Tudo de melhor para sua obra</p>
+                <p>NOVA FRASE AQUI!!</p>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -84,6 +109,33 @@
                     <div>
                         <h4>Garantia Total</h4>
                         <p>Segurança e qualidade garantidas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="concrete-texture-light"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2>NOSSOS <span class="highlight">PROJETOS</span></h2>
+                <p>Resultados que falam por si</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/obra1.jpeg" alt="Projeto 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/obra2.jpeg" alt="Projeto 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/OBRA4.png" alt="Projeto 2">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Projeto Comercial</p>
                     </div>
                 </div>
             </div>
@@ -189,7 +241,7 @@
                 <div class="about-image-card">
                     <div class="card-bg-pattern"></div>
                     <div class="image-container">
-                        <img src="images/funcionariosFuraTudo-removebg-preview.png" alt="Equipe Fura Tudo - Profissionais especializados em perfuração de concreto">
+                        <img src="images/OBRA5.jpeg" alt="Equipe Fura Tudo - Profissionais especializados em perfuração de concreto">
                         <div class="image-overlay">
                         </div>
                     </div>
@@ -255,99 +307,111 @@
 </section>
 
     <!-- Video Section -->
-    <section class="video-section">
-        <div class="concrete-texture"></div>
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">NOSSO TRABALHO</span>
-                <h2>VEJA NOSSO <span class="highlight">TRABALHO</span></h2>
-                <p>Confira a qualidade e precisão dos nossos serviços</p>
-            </div>
-            <div class="video-grid">
-                <div class="video-container">
-                    <div class="video-placeholder">
-                        <i class="fas fa-play-circle"></i>
-                        <p>Vídeo 1: Perfuração em Concreto</p>
-                    </div>
-                </div>
-                <div class="video-container">
-                    <div class="video-placeholder">
-                        <i class="fas fa-play-circle"></i>
-                        <p>Vídeo 2: Corte de Lajes</p>
-                    </div>
-                </div>
-            </div>
+<section class="video-section">
+    <div class="concrete-texture"></div>
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">NOSSO TRABALHO</span>
+            <h2>VEJA NOSSO <span class="highlight">TRABALHO</span></h2>
+            <p>Confira a qualidade e precisão dos nossos serviços</p>
         </div>
-    </section>
 
-    <!-- Gallery Section -->
-    <section class="gallery" id="gallery">
-        <div class="concrete-texture-light"></div>
-        <div class="container">
-            <div class="section-header">
-                <h2>NOSSOS <span class="highlight">PROJETOS</span></h2>
-                <p>Resultados que falam por si</p>
-            </div>
-            
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="images/funcionariosFuraTudo-removebg-preview.png" alt="Projeto 1">
-                    <div class="gallery-overlay">
-                        <h3>Identidade Visual</h3>
-                        <p>Uniformes e materiais profissionais</p>
+        <div class="video-grid">
+
+            <!-- VIDEO 1 -->
+            <div class="video-card"
+                 data-video="videos/video1.mp4"
+                 data-title="Perfuração em Concreto">
+
+                <div class="video-thumbnail">
+                    <div class="thumbnail-overlay">
+                        <i class="fas fa-play-circle"></i>
                     </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/00-Rompedores_IMG-CATEGORIA-v15.jpg" alt="Projeto 2">
-                    <div class="gallery-overlay">
-                        <h3>Equipamentos</h3>
-                        <p>Tecnologia de última geração</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/FotoFuraTudo.png" alt="Projeto 2">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Projeto Comercial</p>
+                    <div class="thumbnail-content">
+                        <!-- <span class="video-label">Vídeo 1</span>
+                        <h3>Perfuração em Concreto</h3>
+                        <p>Clique para assistir</p> -->
                     </div>
                 </div>
             </div>
+
+            <!-- VIDEO 2 -->
+            <div class="video-card"
+                 data-video="videos/video2.mp4"
+                 data-title="Corte de Lajes">
+
+                <div class="video-thumbnail">
+                    <div class="thumbnail-overlay">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <div class="thumbnail-content">
+                        <!-- <span class="video-label">Vídeo 2</span>
+                        <h3>Corte de Lajes</h3>
+                        <p>Clique para assistir</p> -->
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Modal de Vídeo -->
+<div class="video-modal" id="videoModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="modalVideoTitle">Assistindo Vídeo</h3>
+            <button class="modal-close" id="modalCloseBtn">&times;</button>
+        </div>
+        <div class="modal-body">
+            <video id="modalVideo" controls>
+                Seu navegador não suporta a reprodução de vídeos.
+            </video>
+        </div>
+    </div>
+</div>
 
     <!-- CTA Section -->
     <section class="cta-section">
-        <div class="cta-overlay"></div>
-        <div class="container">
-            <div class="cta-content">
-                <div class="cta-icon">
-                    <i class="fas fa-rocket"></i>
-                </div>
-                <h2>PRONTO PARA COMEÇAR SEU PROJETO?</h2>
-                <p>Entre em contato agora e receba um orçamento personalizado</p>
-                <div class="cta-benefits">
-                    <div class="cta-benefit">
-                        <i class="fas fa-check"></i>
-                        <span>Orçamento Grátis</span>
-                    </div>
-                    <div class="cta-benefit">
-                        <i class="fas fa-check"></i>
-                        <span>Atendimento Rápido</span>
-                    </div>
-                    <div class="cta-benefit">
-                        <i class="fas fa-check"></i>
-                        <span>Desconto Especial</span>
-                    </div>
-                </div>
-                <div class="cta-buttons">
-                    <a href="https://wa.me/5511996914474" class="btn btn-whatsapp-large pulse-animation">
-                        <i class="fab fa-whatsapp"></i> (11) 99691-4474
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">Solicitar Orçamento</a>
-                </div>
+    <div class="cta-particles">
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+    </div>
+    <div class="container">
+        <div class="cta-content">
+
+            <div class="cta-eyebrow">
+                <span class="eyebrow-line"></span>
+                <p>Entre em contato</p>
+                <span class="eyebrow-line"></span>
             </div>
+
+            <h2>PRONTO PARA COMEÇAR<br><em>SEU PROJETO?</em></h2>
+            <p class="cta-subtitle">Receba um orçamento personalizado sem compromisso</p>
+
+            <div class="cta-buttons">
+                <a href="https://wa.me/5511996910474" class="btn btn-whatsapp-large pulse-animation">
+                    <span class="btn-icon"><i class="fab fa-whatsapp"></i></span>
+                    <span class="btn-text">
+                        <small>Arthur Dutra</small>
+                        (11) 99691-0474
+                    </span>
+                </a>
+                <a href="https://wa.me/5511987038415" class="btn btn-whatsapp-large pulse-animation" style="animation-delay: 0.3s;">
+                    <span class="btn-icon"><i class="fab fa-whatsapp"></i></span>
+                    <span class="btn-text">
+                        <small>Wadson Moreira</small>
+                        (11) 98703-8415
+                    </span>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Solicitar Orçamento
+                </a>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
@@ -371,11 +435,15 @@
                             <i class="fab fa-whatsapp"></i>
                         </div>
                         <div class="contact-details">
-                            <h4>WhatsApp</h4>
-                            <a href="https://wa.me/5511996914474" class="contact-link">
-                                (11) 99691-4474
-                                <span class="link-arrow">→</span>
-                            </a>
+                           <h4>Representantes Comerciais</h4>
+    <a href="https://wa.me/5511996910474" class="contact-link">
+        Arthur Dutra - (11) 99691-0474
+        <span class="link-arrow">→</span>
+    </a>
+    <a href="https://wa.me/5511987038415" class="contact-link">
+        Wadson Moreira - (11) 98703-8415
+        <span class="link-arrow">→</span>
+    </a>
                         </div>
                     </div>
                     
@@ -427,7 +495,7 @@
                 <div class="business-card">
                     <div class="card-bg-pattern"></div>
                     <div class="card-content">
-                        <img src="images/FURATUDO-removebg-preview.png" alt="Imagem do cartão" class="card-image">
+                        <img src="images/furaTudo-removebg-preview (1).png" alt="Imagem do cartão" class="card-image">
                     </div>
                 </div>
             </div>
@@ -447,13 +515,8 @@
             <div class="container">
                 <div class="footer-content">
                     <div class="footer-logo">
-                        <img src="images/FURATUDO-removebg-preview.png" alt="Fura Tudo Logo">
+                        <img src="images/furaTudo-removebg-preview (1).png" alt="Fura Tudo Logo">
                         <p>Precisão que atravessa limites</p>
-                        <div class="footer-social">
-                            <a href="https://wa.me/5511996914474" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                            <a href="https://instagram.com/fura.tudo" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="mailto:furatudo@outlook.com.br"><i class="fas fa-envelope"></i></a>
-                        </div>
                     </div>
                     
                     <div class="footer-links">
@@ -468,7 +531,10 @@
                     
                     <div class="footer-contact">
                         <h4>Contato</h4>
-                        <p><i class="fab fa-whatsapp"></i> (11) 99691-4474</p>
+                        <p>
+    <i class="fab fa-whatsapp"></i>
+    Arthur Dutra - (11) 99691-0474 | Wadson Moreira - (11) 98703-8415
+</p>
                         <p><i class="fas fa-envelope"></i> furatudo@outlook.com.br</p>
                         <p><i class="fab fa-instagram"></i> @fura.tudo</p>
                     </div>
@@ -483,6 +549,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
