@@ -2601,7 +2601,7 @@ body {
 
 /* Footer */
 .footer {
-    background: var(--medium-gray);
+    background: var(--concrete-dark);
     border-top: 3px solid var(--primary-color);
 }
 
@@ -2673,7 +2673,7 @@ body {
 }
 
 .footer-links a {
-    color: var(--text-gray);
+    color: var(--dark-bg);
     text-decoration: none;
     transition: all 0.3s ease;
     display: block;
@@ -2687,7 +2687,7 @@ body {
 }
 
 .footer-contact p {
-    color: var(--text-gray);
+    color: var(--dark-bg);
     margin-bottom: 12px;
     font-size: 15px;
 }
